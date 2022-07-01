@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d6ab2d4943.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Metal+Mania&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/32363-2-halloween-hd_32x32.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Monster Mash</title>
+</head>
+<body>
+    <header class="monster-mash">
+        <a class="logo" href=""><img src="assets/logo.svg" alt="Monster Mash logo"></a>
+        <nav class="desktop">
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <nav class="mobile">
+            <div class="btn-menu-mobile"><i class="fas fa-bars"></i></div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header
+    <main>  
+        <section class="halloween-party">
+            <div class="content">
+                <h1>Halloween Party</h1>
+                <p>This year on Hallows Eve, we are celebrating with a 
+                       fang-tastic party
+                </p>
+                <span>31st October 2020 | 7 PM (UTC-4:00)</span>
+                <input class="ticket-btn" value="BUY TICKETS" type="button" onClick="document.getElementById('ticket').scrollIntoView();" />
+            </div>
+        </section>
+        
+        <section class="about-party">
+            <div class="about-container">
+                <div class="leftcard">
+                    <img src="assets/witch-illustation.svg" alt="Witch Illustration">
+                </div>
+                <div class="rightcard">
+                    <h2>About The Party</h2>
+                    <p>
+                        Monster Mash presents yet another spooktacular
+                        party this Halloween. Join in the festivities and take
+                        part in scary games, fun rides or taste terrifying
+                        delicacies from the most reputed vendors.
+                    </p>
+                    <p><i class="fas fa-calendar-check"></i>28 Oct - 31 Oct, 2020</p>
+                    <span>Start at 6 PM</span>
+                    <p><i class="fas fa-paper-plane"></i>28 Oct - 31 Oct, 2020</p>
+                    <span>Start at 6 PM</span>
+                    <input class="ticket-btn" value="BUY TICKETS" type="button" onClick="document.getElementById('ticket').scrollIntoView();" />
+                </div>
+            </div>
+        </section>
+
+        <section class="expect">
+            <div class="what-container">
+                <div class="left">
+                    <h2>What To Expect</h2>
+                    <p>
+                        Put on your garlic braids. Grab your silver crosses.
+                        Get ready to mingle with ghouls, werewolves,
+                        witches and vampires. Show off your scary side and
+                        win a surprise gift for the most terrifying costume. Or
+                        grab a bite of horrifying delicacies made by
+                        talented local vendors.
+                    </p>
+                    <span>
+                        We have so much in store for you. Find out for
+                        yourself in this year’s All Hallows Eve party…if you
+                        dare!
+                    </span>
+                    <input class="ticket-btn" value="BUY TICKETS" type="button" onClick="document.getElementById('ticket').scrollIntoView();" />
+                </div>
+
+                <div class="cards">         
+                    <div class="incardleft">
+                        <div class="card hat">
+                            <div class="icon">
+                                <i class="fas fa-hat-wizard"></i>
+                            </div>
+                            <h2>Spooky Costumes</h2>
+                            <span>How scary can you be? Wear your most terrifying costume & win a prize.</span>
+                        </div>
+                        <div class="card food">
+                            <div class="icon">
+                                <i class="fas fa-flask"></i>
+                            </div>
+                            <h2>Mouth-watering Food</h2>
+                            <span>Poisoned apples, bloodied eyeballs, we have food for ravenous appetites.</span>
+                        </div>
+                    </div>
+                    <div class="incardright">
+                        <div class="card broom">
+                            <div class="icon">
+                                <i class="fas fa-broom"></i>
+                            </div>
+                            <h2>Broom Race</h2>
+                            <span>Witches assemble! Get ready for the most exciting and wicked broom race.</span>
+                        </div>
+                        <div class="card mask">
+                            <div class="icon">
+                                <i class="fas fa-skull"></i>
+                            </div>
+                            <h2>Horror Face Paint</h2>
+                            <span>Soft-bodied humans can join the world of the wicked. Get your face painted</span>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </section>
+
+        <section class="hallowed-hosts">
+            <div class="titletext">
+                <h2>Meet The Hallowed Hosts</h2>
+                <span>Get to know the wicked ones who are hosting this year’s party on All Hallows Eve</span>
+            </div>       
+            <div class="container">
+                <div class="hostcards">
+                    <img src="assets/host1.jpg" alt="Event Host">
+                    <h3>JENNIFER MOOR</h3>
+                    <span>Lead DJ On Deadpoll</span>
+                </div>
+                <div class="hostcards">
+                    <img src="assets/host2.jpg" alt="Event Host">
+                    <h3>JENNIFER MOOR</h3>
+                    <span>Lead DJ On Deadpoll</span>
+                </div>
+                <div class="hostcards">
+                    <img src="assets/host3.jpg" alt="Event Host">
+                    <h3>JENNIFER MOOR</h3>
+                    <span>Lead DJ On Deadpoll</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="tickets">
+            <div id="ticket">
+                <h2>Grab Your Tickets</h2>
+                <span>Get ready for a scare! Check the dates and grab your tickets 
+                    before they are sold out!
+                </span>
+            </div>
+            <div class="container">
+                <div class="card">
+                    <div class="imgicon">
+                        <img src="assets/pumpkincat.svg" alt="">
+                    </div>
+                    <h3>Children Entry</h3>
+                    <p>Lorem ipsum dolor sit amet, consetetur</p>
+                    <span>$29.00</span>
+                    <p><i class="fas fa-circle"></i>  Lorem ipsum dolor sit amet,</p>
+                    <p><i class="fas fa-circle"></i>  Lorem ipsum dolor sit amet,</p>
+                    <p><i class="fas fa-circle"></i>  Lorem ipsum dolor sit amet,</p>
+                    <input class="ticket-btn" value="BUY TICKETS" type="button" onClick="document.getElementById('').scrollIntoView();" />
+                </div>
+                <div class="card">
+                    <div class="imgicon">
+                        <img src="assets/witchcat.svg" alt="">
+                    </div>
+                    <h3>Single Entry</h3>
+                    <p>Lorem ipsum dolor sit amet, consetetur</p>
+                    <span>$39.00</span>
+                    <p><i class="fas fa-circle"></i>  Lorem ipsum dolor sit amet,</p>
+                    <p><i class="fas fa-circle"></i>  Lorem ipsum dolor sit amet,</p>
+                    <p><i class="fas fa-circle"></i>  Lorem ipsum dolor sit amet,</p>
+                    <input class="ticket-btn" value="BUY TICKETS" type="button" onClick="document.getElementById('').scrollIntoView();" />
+                </div>
+                <div class="card">
+                    <div class="imgicon">
+                        <img src="assets/witchcat2.svg" alt="">
+                    </div>
+                    <h3>Family Entry</h3>
+                    <p>Lorem ipsum dolor sit amet, consetetur</p>
+                    <span>$89.00</span>
+                    <p><i class="fas fa-circle"></i>  Lorem ipsum dolor sit amet,</p>
+                    <p><i class="fas fa-circle"></i>  Lorem ipsum dolor sit amet,</p>
+                    <p><i class="fas fa-circle"></i>  Lorem ipsum dolor sit amet,</p>
+                    <input class="ticket-btn" value="BUY TICKETS" type="button" onClick="document.getElementById('').scrollIntoView();" />
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <div class="wickednews">
+                <h2>Our Wicked Newsletter</h2>
+                <p>Find out what’s scaring folks at night by subscribing to our wicked newsletter</p>
+                <form action="newsletter.php" method="post">
+                    <div class="email">
+                        <input placeholder="E-mail" type="email" name="email" id="email">
+                        <button>SUBSCRIBE</button>
+                    </div>
+                </form>
+            </div>
+            <div class="pumpkin">
+                <img src="assets/pumpkin.svg" alt="">
+            </div>
+        </section>
+
+        <footer class="monster-mash">   
+                <h2>STAY IN TOUCH</h2>
+            <div class="footer-container">
+                <div class="staytouch-content">
+                    <div>
+                        <img src="assets/logo.svg" alt="logo">
+                    </div>
+                    <p>We guarantee a safe and enjoyable Halloween party 
+                        experience. Food and drinks will be provided by the best 
+                        and trusted vendors, and 24/7 security will be provided 
+                        on premises. Feel free to contact us for more information.
+                    </p>
+                    <span>2/45 Tower Street, New York, USA</span>
+                    <span>0012 678 8899</span>
+                    <span>contact@monstermash.com</span>
+                    <span>www.monstermash.com</span>
+                </div>
+                <div class="forms">
+                        <form  name="contactForm" id="contact">
+                            <h2>Have Questions? Reach Out To Us</h2>
+                            <div class="group">
+                                <div class="camp-name">
+                                    <input type="text" name="name" id="name" placeholder="Name" required>
+                                    <input type="text" name="lastname" id="lastname" placeholder="Last Name" required>
+                                </div>
+                            </div>
+                            <div class="camp">
+                                <input type="email" name="Email" id="Email" placeholder="E-mail" required>
+                            </div>
+                            <div class="camp">
+                                <input type="text" name="subject" id="subject" placeholder="Subject" required>
+                            </div>
+                            <div class="camp">
+                                <br>
+                                <textarea name="message" id="message" placeholder="Your Message" row="6" style="width: 100%; height: 13em;"></textarea>
+                            </div>
+                            <input type="button" class="submite-btn" id="submit" value="Submit" onclick="formValidation()">
+                            <div id="campo" style="display:none;color:red;">* Please, fill in required fields</div>
+                        </form>
+                </div>
+            </div>
+            <img id="footer-illu" src="assets/illustration-6.svg" alt="Footer">
+        </footer>
+    </main>
+    
+    
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

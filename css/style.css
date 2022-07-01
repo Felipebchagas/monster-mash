@@ -1,0 +1,894 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    color: white; 
+   
+}
+
+header.monster-mash {
+    background-color: #1D1421;
+    display: flex;
+    align-items: center;
+    padding: 35px;   
+}
+
+header.monster-mash .logo {
+    margin-right: auto;
+}
+  
+.mobile {
+    display: none;
+}
+
+
+header.monster-mash .nav-links {
+    list-style: none;
+    display: flex;
+}
+  
+header.monster-mash .nav-links a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+  
+header.monster-mash .nav-links li {
+    padding: 0px 20px;
+}
+  
+header.monster-mash .nav-links li a:hover {
+    color: #F6583E;
+}
+  
+  
+section.halloween-party {
+    background-image: url(../assets/Halloween-party.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1200px;
+    
+}
+
+section.halloween-party div.content {
+    text-align: center;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+section.halloween-party div.content h1 {
+    font-family: "Metal Mania", sans-serif;
+    font-weight: 400;
+    font-size: 100px;
+}
+
+section.halloween-party div.content p {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    max-width: 650px;
+    padding-top: 20px;
+}
+
+section.halloween-party div.content span {
+    color: #BF82E0;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.ticket-btn {
+    border-radius: 25px;
+    width: 160px;
+    height: 50px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    color: #340068;
+    font-weight: 600;
+    text-align: center;
+    background: linear-gradient(to right, #BF82E0 50%, #ffff 50%);
+    transition: all .5s ease-out;
+    background-size: 200% 100%;
+    background-position: right bottom;
+    border: none;
+    cursor: pointer;
+    margin-top: 3rem;
+}
+
+.ticket-btn:hover {
+    background-position: left bottom;
+    color: #ffff;
+}
+
+/*------------ About The Party Section ----------------*/
+
+
+section.about-party {
+    background-color: #2A1E31;
+    background-image: url(../assets/webbg.svg);
+    
+}
+
+section.about-party div.about-container {
+    display: flex;
+    align-items: center;
+    
+}
+
+section.about-party div.leftcard img {
+    width: 75%;
+    padding-top: 100px;
+}
+
+section.about-party div.rightcard {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-right: 8rem;
+    
+}
+
+section.about-party div.rightcard h2 {
+    font-family: "Metal Mania", sans-serif;
+    font-size: 70px;
+    color: #FFFFFF;
+    font-weight: 400;
+} 
+
+
+section.about-party div.rightcard p {
+    font-family: "Poppins", sans-serif;
+    color: #E2D9EC;
+    font-size: 18px;
+    max-width: 480px;
+    padding-top: 20px;
+}
+
+section.about-party div.rightcard .ticket-btn {
+    background: linear-gradient(to right, #BF82E0 50%, rgb(248, 88, 22) 50%);
+    transition: all .5s ease-out;
+    background-size: 200% 100%;
+    background-position: right bottom;
+    color: white;
+}
+section.about-party div.rightcard .ticket-btn:hover {
+    background-position: left bottom;
+}
+
+
+/*------------ What to Expect Section ----------------*/
+
+section.expect {
+    background-color: #2A1E31;
+    background-image: url(../assets/webbg.svg);
+    
+}
+
+section.expect div.what-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.expect div.left {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+ 
+}
+
+section.expect div.left h2 {
+    font-family: "Metal Mania", sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+}
+
+section.expect div.left p, span {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    max-width: 473px;
+    color: #E2D9EC;
+}
+section.expect div.left  span {
+    padding-top: 15px;
+}
+
+section.expect div.cards {
+    display: flex;  
+}
+
+section.expect div.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 254px;
+    height: 300px;
+    background: linear-gradient(#573B66 96%, #A081EF 4%);
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 32px;
+}
+section.expect div.cards .broom {
+    background: linear-gradient(#573B66 96%, #7CCBF8 4%);
+}
+section.expect div.cards .food {
+    background: linear-gradient(#573B66 96%, #F69787 4%);
+}
+section.expect div.cards .mask {
+    background: linear-gradient(#573B66 96%, #BF82E0 4%);
+}
+
+section.expect div.cards h2 {
+    font-family: "Metal Mania", sans-serif;
+    font-size: 24px;
+    padding-top: 25px;
+}
+section.expect div.cards span {
+    font-family: "Poppins", sans-serif;
+    color: #E2D9EC;
+    font-size: 14px;
+    padding-top: 25px;
+    max-width: 228px;
+}
+
+
+section.expect div.incardright {
+    padding-top: 40px;
+    
+}
+
+section.expect div.cards .hat, .broom {
+    margin-bottom: 40px;
+}
+
+
+section.expect i.fas {
+    color: white;
+    font-size: 45px;
+    border-width: 12px;
+    border-style: solid;
+    border-color: transparent;
+    border-image: initial;
+    background-color: #A081EF;
+    border-radius: 20px; 
+    padding: 6% 9% 6% 9%;
+    
+}
+
+section div.icon .fa-broom {
+    background-color: #7CCBF8;
+}
+
+section div.icon .fa-flask {
+    background-color: #F69787;
+}
+
+section div.icon .fa-skull {
+    background-color: #BF82E0;
+}
+
+/*------------ Meet The Hallowed Hosts Section ----------------*/
+
+section.hallowed-hosts {
+    background-color: #412C4C;
+    background-image: url(../assets/webbg.svg);
+    text-align: center;
+}
+section.hallowed-hosts div.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+section.hallowed-hosts div.titletext {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.hallowed-hosts div.titletext h2 {
+    font-family: "Metal Mania", sans-serif;
+    font-size: 70px;
+    padding-top: 80px;
+}
+
+section.hallowed-hosts div.titletext span {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    max-width: 590px;
+    margin-top: 20px;
+
+}
+
+section.hallowed-hosts div.hostcards {
+    width: 350px;
+    margin-left: 32px;
+    padding-top: 32px;   
+}
+
+section.hallowed-hosts div.hostcards:first-child {
+    margin-left: 0;
+}
+
+section.hallowed-hosts div.hostcards img {
+    width: 100%;
+    border-radius: 15px;  
+}
+
+section.hallowed-hosts div.hostcards h3 {
+    font-family: "Metal Mania", sans-serif;
+    color: #BF82E0;
+    font-size: 30px;
+    padding-top: 25px;
+}
+
+
+/*------------ Grab Your Tickets Section ----------------*/
+
+section.tickets {
+    background-color: #2A1E31;
+    background-image: url(../assets/webbg.svg);
+}
+
+section.tickets div#ticket {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+section.tickets div#ticket h2 {
+    font-family: "Metal Mania", sans-serif;
+    font-size: 70px;
+    margin-top: 80px;
+}
+
+section.tickets div#ticket span {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    color: #E2D9EC;
+    max-width: 600px;
+    padding-top: 20px;   
+}
+
+section.tickets div.container {
+    display: flex;
+    justify-content: center;   
+}
+
+section.tickets div.card {
+    transition: 0s;
+    background: #412C4C;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 32px;
+    border-radius: 20px;
+}
+section.tickets div.card:hover {
+    background: #1D1421;
+    transition-delay: 0.2s;
+    transform: scale(1.06);
+}
+
+section.tickets div.card:first-child {
+    margin-left: 0;
+    
+}
+section.tickets div.card .imgicon {
+    display: flex;
+    align-items: center;
+}
+
+section.tickets div.card .imgicon img {
+    width: 100%;
+    height: 85%;
+}
+section.tickets div.card h3 {
+    color: #BF82E0;
+    font-family: "Metal Mania", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+section.tickets div.card p {
+    font-family: "Poppis", sans-serif;
+    font-size: 14px;
+    color: #E2D9EC;
+    font-weight: 600;
+    line-height: 40px;
+    padding-top: 10px;
+}
+
+section.tickets div.card span {
+    color: #F6583E;
+    font-family: "Metal Mania", sans-serif;
+    font-size: 44px;
+    
+}
+
+section.tickets .fas {
+    font-size: 10px;
+    color: #BF82E0;
+    padding-right: 5px;
+}
+
+section.tickets div.card .ticket-btn {
+    background:rgb(248, 88, 22);
+    color: #ffff;
+    width: 190px;
+    height: 50px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+section.tickets div.card .ticket-btn:hover {
+    background: #BF82E0;
+}
+
+/*------------ Newsletter Section ----------------*/
+
+section.newsletter {
+    background-color: #2A1E31;
+    background-image: url(../assets/webbg.svg);
+    
+}
+
+section.newsletter div.wickednews {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+section.newsletter div.wickednews > h2 {
+    font-family: "Metal Mania", sans-serif;
+    font-size: 70px;
+}
+
+section.newsletter div.wickednews > p {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    max-width: 580px;
+    color: #E2D9EC;
+    padding-top: 20px;
+}
+
+section.newsletter div.email {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section.newsletter div.email input {
+    background-color: #412C4C;
+    border: none;
+    border-radius: 50px;
+    width: 680px;
+    height: 70px;  
+    font-family: "Poppins", sans-serif;
+    padding: 0 40px;
+    margin-top: 40px;
+    outline: none;
+    color: white;
+}
+
+section.newsletter div.email input::placeholder {
+    color: #E2D9EC;
+}
+
+section.newsletter div.email button {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    border: none;
+    border-radius: 50px;
+    width: 220px;
+    height: 70px;
+    font-size: 16px;
+    padding: 0 15px;
+    font-family: "Poppins", sans-serif;
+    color: #FFFFFF;
+    font-weight: 600;
+    background:rgb(248, 88, 22); 
+    background-size: 200% 100%;
+    cursor: pointer;
+    margin-top: 40px;  
+}
+
+section.newsletter div.email button:hover {
+    background: #FFFFFF;
+    color: rgb(248, 88, 22); ;
+}
+
+section.newsletter div.pumpkin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    
+}
+
+
+/*------------------------------- Footer --------------------------*/
+
+footer.monster-mash {
+    background-color: #2A1E31;
+    background-image: url(../assets/webbg.svg);
+    
+}
+
+footer.monster-mash > h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Metal Mania", sans-serif;
+    font-size: 70px;
+    padding-top: 10%;
+    letter-spacing: 6px;
+}
+
+footer.monster-mash div.footer-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 10%; 
+ 
+}
+
+footer.monster-mash div.staytouch-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 15px;   
+}
+
+
+footer.monster-mash div.staytouch-content span, p {
+    font-family: "Poppins", sans-serif;
+    color: #FFFFFF;
+    font-size: 17px;
+    padding-top: 15px;
+    max-width: 490px;
+}
+footer.monster-mash div.forms {
+    width: 600px;
+    height: 640px;
+    background: white;
+    border-radius: 15px;
+    background: #412C4C;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+}
+footer.monster-mash div.forms h2 {
+    font-size: 41px;
+    font-family: "Metal Mania", sans-serif;
+    padding-top: 40px;
+}
+
+footer.monster-mash div.forms input, select, button, textarea {
+    border-radius: 8px;
+    padding-left: 10px;
+}
+
+div.group .camp-name input[type="text"], [type="email"] {
+    width: 49%;
+    height: 50px;
+    margin: 15px 0 15px 0;
+
+}
+
+.camp input[type="text"], [type="email"] {
+    margin: 15px 50px 15px 0;
+    width: 100%;
+    height: 50px;   
+}
+
+.submite-btn {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    line-height: 1.3em;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    color: #340068;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.submite-btn:hover {
+    background: #BF82E0;
+    color: #FFFFFF;
+}
+
+
+footer.monster-mash #footer-illu {
+    width: 100%;
+    
+}
+
+/*-------------------------   @media -----------------------------------------*/
+
+@media screen and (max-width: 720px) {
+
+    nav.desktop {
+        display: none;
+    }
+
+    nav.mobile {
+        display: flex;
+        justify-content: start;
+        width: 8%;
+
+    }
+
+    nav.mobile ul {      
+        width: 100%;
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 55px;
+        text-align: center;
+    }
+
+    nav.mobile li {
+        font-size: 15px;
+        background-color: white;
+        border-bottom: 1px solid #ccc;
+        font-weight: 300;
+        padding: 6px 0;
+        display: none;
+    }
+
+    nav.mobile a {
+        display: block;
+        color: #444;
+        text-decoration: none;
+    }
+
+    .btn-menu-mobile {
+        font-size: 24px;
+        cursor: pointer;
+        color: white;
+    }
+
+    section.halloween-party {
+        width: 100%;
+        height: 100%;           
+    }
+
+    section.halloween-party div.content h1 {
+        font-size: 38px;
+    }
+    section.halloween-party div.content p {
+        font-size: 16px;
+        max-width: 440px;
+    }
+    section.halloween-party div.content span {
+        font-size: 14px;
+    }
+    .ticket-btn {
+        font-size: 70%;
+    }
+
+
+    /*---------------- Section About -----------------*/
+    section.about-party div.about-container {
+       flex-direction: column;
+       padding-left: 20px;    
+    }
+    section.about-party div.leftcard img {
+        width: 95%;
+    }
+
+    section.about-party div.about-container h2 {
+        font-size: 38px;
+    }
+
+    section.about-party div.about-container p {
+        font-size: 18px;
+        
+    }
+    section.about-party div.rightcard .ticket-btn {
+        margin-bottom: 32px;
+    }
+
+
+    /*---------------- Section Expect -----------------*/
+
+    section.expect div.what-container {
+        flex-direction: column;
+        align-items: center;  
+    }
+
+    section.expect div.left h2 {
+        font-size: 38px;
+    }
+    section.expect div.left p {
+        font-size: 18px;
+        max-width: 443px;
+    }
+
+    section.expect div.cards {
+        flex-direction: column;
+       
+    }
+
+    section.expect div.card {
+        width: 100%;
+        margin: 40px 0 -40px 0;
+    }
+    section.expect div.incardright .card {
+        margin: 40px 0 0 0;
+    }
+
+    section.expect div.cards h2 {
+        font-weight: 400;
+    }
+    section.expect div.cards span {
+        max-width: 390px;
+    }
+
+/*---------------- Section Host -----------------*/ 
+    section.hallowed-hosts div.container{
+        flex-direction: column;
+        align-items: flex-start;
+        align-items: center;
+    }
+
+    section.hallowed-hosts div.titletext h2 {
+        font-size: 30px;
+        font-weight: 400;
+    }
+    section.hallowed-hosts div.titletext span {
+        max-width: 410px;
+    }
+    section.hallowed-hosts div.hostcards {
+        width: 350px;
+        margin: 0;
+    }
+   
+    /*---------------- Section Ticket -----------------*/ 
+
+    section.tickets div#ticket h2 {
+        font-size: 30px;
+        font-weight: 400;
+    }
+    
+    section.tickets div#ticket span {
+        max-width: 450px;   
+    }
+
+    section.tickets div.container {
+        flex-direction: column;
+        align-items: center;
+    }
+    section.tickets div.card {
+        width: 350px;
+        height: 530px;
+        margin-left: 0;
+    }
+
+    section.tickets div.card .imgicon {
+        width: 120px;
+        height: 120px;
+        
+    }
+    section.tickets div.card h3 {
+        font-size: 24px;
+    }
+    
+    section.tickets div.card p {
+        font-size: 12px;
+    }
+    
+    section.tickets div.card span {
+        font-size: 30px;
+        
+    }
+
+        /*---------------- Section News-----------------*/
+    
+    section.newsletter div.wickednews > h2 {
+        font-size: 30px;
+    }
+    
+    section.newsletter div.wickednews > p {
+        max-width: 420px;
+    }
+
+    section.newsletter div.email {
+        width: 350px;
+        height: 170px;
+        position: initial;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 20px;
+        background: #412C4C;
+        margin-top: 30px;
+    }
+    section.newsletter div.email input {
+        width: 95%;
+        height: 70px;
+        margin: 3px 0 0 0;
+        border: 2px solid #5e262c;        
+    }
+
+    section.newsletter div.email button {
+        position: initial; 
+        margin: 0;
+        width: 95%;
+        margin: 10px 0 0 0;   
+    }
+    section.newsletter div.pumpkin img {
+        width: 90%;
+        
+    }
+
+     /*---------------- Footer -----------------*/
+
+     footer.monster-mash > h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+    }
+
+    footer.monster-mash div.footer-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 10%; 
+    }
+
+    footer.monster-mash div.staytouch-content {
+        order: 2;
+        padding: 30px 0 0 15px;
+        
+    }
+
+    footer.monster-mash div.staytouch-content span, p {
+        font-size: 14px;
+    }
+
+    footer.monster-mash div.forms {
+        width: 85%;
+        height: 680px; 
+        align-self: center;
+    }
+  
+    footer.monster-mash div.forms h2 {
+        font-size: 22px;
+    }
+
+    div.group .camp-name input[type="text"], [type="email"] {
+        width: 100%;
+    }
+}
+
